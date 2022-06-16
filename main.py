@@ -21,8 +21,6 @@ class imageRestore(tk.Frame):
         self.judul = tk.Label(
             self, text="Image Restoration", font=('Helvetica', 20))
         self.judul.pack()
-        # self.nama = tk.Label(self, text="Kelompok 8", font=('Helvetica', 18))
-        # self.nama.pack(pady=(10, 0))
 
         # Upload Image
         self.frame1 = tk.Frame(self)
